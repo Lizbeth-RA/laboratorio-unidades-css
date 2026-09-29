@@ -82,3 +82,22 @@ html {
 .caja-vw {
     width: 50vw;
 }
+
+.tarjeta {
+    width: 80%;
+    padding: 1.5rem;
+}
+
+.titulo {
+    font-size: 1.75rem;
+}
+
+.banner {
+    min-height: 50vh;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
