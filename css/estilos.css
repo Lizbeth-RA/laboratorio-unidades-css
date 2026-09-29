@@ -59,3 +59,26 @@ html {
     border: 2px solid black;
     padding: 20px;
 }
+
+.comparacion {
+    width: 80%;
+    border: 3px solid black;
+}
+
+.caja {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+.caja-px {
+    width: 300px;
+}
+
+.caja-porcentaje {
+    width: 50%;
+}
+
+.caja-vw {
+    width: 50vw;
+}
