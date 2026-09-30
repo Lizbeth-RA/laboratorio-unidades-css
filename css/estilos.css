@@ -146,3 +146,21 @@ html {
     border-top: 2px solid black;
     text-align: center;
 }
+
+@media (max-width: 700px) {
+    .contenedor-cursos {
+        grid-template-columns: 1fr;
+    }
+
+    .encabezado-panel {
+        width: 90%;
+    }
+
+    .tarjeta-curso {
+        width: 100%;
+    }
+
+    .titulo-panel {
+        font-size: 1.6rem;
+    }
+}
