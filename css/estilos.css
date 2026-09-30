@@ -101,3 +101,48 @@ html {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
+
+.panel-cursos {
+    width: 90%;
+    min-height: 60vh;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.titulo-panel {
+    font-size: 2rem;
+}
+
+.encabezado-panel {
+    width: 70vw;
+    margin: 0 auto 2rem auto;
+    padding: 1rem;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.contenedor-cursos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.tarjeta-curso {
+    width: 90%;
+    min-height: 20vh;
+    padding: 1.5rem;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.tarjeta-curso h3 {
+    font-size: 1.5rem;
+}
+
+.pie-panel {
+    margin-top: 2rem;
+    padding: 10px;
+    border-top: 2px solid black;
+    text-align: center;
+}
